@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title>Silver's Website</title>
+        <link rel="stylesheet" href="Styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    </head>
+    <body>
+    <!-- Start Landing Page -->
+      <div class="landing-page">
+        <header>
+          <div class="container">
+            <a href="#" class="logo">Silver's <b>Dungeon</b></a>
+            <ul class="links">
+                <li><a href="Webtoons.html" class="btn hover-border">
+                    <span>Webtoons</span>
+                </a></li>
+                <li><a href="#" class="btn hover-border">
+                    <span>Blog</span>
+                </a></li>
+                <li><a href="commissions.html" class="btn hover-border">
+                    <span>Commissions</span>
+                </a></li>
+            </ul>
+          </div>
+        </header>
+        <div class="content">
+          <div class="container">
+            <div class="info">
+              <h1>Hey there, I'm Silver!</h1>
+              <p>Balancing the books by day, and painting the world with my creativity by night!</p>
+              <button onclick="scrollToSocialMedia()">Contact Me</button>
+            </div>
+            <div class="image">
+              <img src="https://i.postimg.cc/65QxYYzh/001234.png">
+            </div>
+          </div>
+        </div>
+                <!-- Start Blog slider-->
+                <!-- End Blog slider-->
+        <div class="about-me">
+            <div class="container">
+              <h2>About Me</h2>
+              <p>I'm a passionate artist, constantly exploring new realms of creativity. When I'm not working on comissions and random art pieces, I'm weaving stories and creating visual wonders with my siblings. Art is my lifeblood, and I believe in the power of imagination to change the world.</p>
+            </div>
+          </div>
+          <!-- End About Me Section -->
+        </div>
+            <!-- Social Media Section -->
+    <div id="social-media-section" class="social-media">
+    <div class="social-media">
+        <div class="container">
+          <h2>Social Media</h2>
+          <p> I spend an ungodly amount of time on social media *CRII* Here's all my links</p>
+        </div>
+        <ul class="wrapper">
+            <li class="icon facebook">
+                <a href="https://www.facebook.com/silver.mist.18400700">
+              <span class="tooltip">Facebook</span>
+              <span><i class="fab fa-facebook-f"></i></span>
+            </li>
+            <li class="icon twitter">
+                <a href="https://twitter.com/silvers_art">
+              <span class="tooltip">Twitter</span>
+              <span><i class="fab fa-twitter"></i></span>
+            </li>
+            <li class="icon instagram">
+                <a href="https://www.instagram.com/silvers_artt/">
+              <span class="tooltip">Instagram</span>
+              <span><i class="fab fa-instagram"></i></span>
+            </li>
+            <li class="icon TikTok">
+                <a href="hhttps://www.tiktok.com/@silvers_artt?is_from_webapp=1&sender_device=pc"></a>
+              <span class="tooltip">TikTok</span>
+              <span><i class="fa-brands fa-tiktok"></i></span>
+            </li>
+            <li class="icon youtube">
+              <span class="tooltip">Youtube</span>
+              <span><i class="fab fa-youtube"></i></span>
+            </li>
+          </ul>
+      </div>
+      </div>
+      <script>
+        function scrollToSocialMedia() {
+          const socialMediaSection = document.getElementById("social-media-section");
+          if (socialMediaSection) {
+            socialMediaSection.scrollIntoView({ behavior: "smooth" });
+          }
+        }
+        </script>
+        
+      <!-- End Social Media Section -->
+      </div>
+      <div class="footer">
+        <div class="container">
+          <h2>Let's Talk!</h2>
+          <p>If you're shy and want to stay anonymous, this is the place to be.</p>
+          
+          <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="contact-info">Contact Info:</label>
+            <input type="text" id="contact-info" name="contact-info" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+      
+      <!-- End About Me Section -->
+      <footer>
+        <p>&copy; 2023 Silver. All rights reserved.</p>
+      </footer>
+      <!-- End Landing Page -->
+    </body>
+</html>
